@@ -10,7 +10,7 @@ output: html_document
 
 ```{r setup, include=FALSE, echo=FALSE}
 library(htmltools)
-soalku <- readRDS("soal_ujian_pertama.rds")
+soalku <- readRDS("soal_ujicoba.rds")
 jawabanku <- fbaca_jawaban(username())
 ```
 
@@ -18,6 +18,7 @@ jawabanku <- fbaca_jawaban(username())
 HTML(paste0("<h5 style='color:brown;'>Soal-", 1:length(soalku),"</h5>", soalku, 
 "<br><h5 style='color:brown;'>Jawaban:</h5><h5 style='color:blue;'><i>", jawabanku, "</i></h5><br>"))
 ```
+
 
 
 
