@@ -65,101 +65,6 @@
         "Archs": "x64"
       }
     },
-    "RestRserve": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "RestRserve",
-        "Type": "Package",
-        "Title": "A Framework for Building HTTP API",
-        "Description": "\n  Allows to easily create high-performance full featured HTTP APIs from R\n  functions. Provides high-level classes such as 'Request', 'Response',\n  'Application', 'Middleware' in order to streamline server side\n  application development. Out of the box allows to serve requests using\n  'Rserve' package, but flexible enough to integrate with other HTTP servers\n  such as 'httpuv'.",
-        "Version": "1.2.4",
-        "Authors@R": "c(\n  person(given = \"Dmitry\",\n         family = \"Selivanov\",\n         role = c(\"aut\", \"cre\"),\n         email = \"selivanov.dmitriy@gmail.com\",\n         comment = c(ORCID = \"0000-0001-5413-1506\")),\n  person(given = \"Artem\",\n         family = \"Klevtsov\",\n         role = \"aut\",\n         email = \"a.a.klevtsov@gmail.com\",\n         comment = c(ORCID = \"0000-0003-0492-6647\")),\n  person(given = \"David\",\n         family = \"Zimmermann\",\n         role = \"ctb\",\n         email = \"david_j_zimmermann@hotmail.com\"),\n  person(given = \"rexy.ai\",\n         role = c(\"cph\", \"fnd\")))",
-        "URL": "https://restrserve.org, https://github.com/rexyai/RestRserve",
-        "BugReports": "https://github.com/rexyai/RestRserve/issues",
-        "License": "GPL (>= 2)",
-        "Depends": "R (>= 3.6.0)",
-        "Imports": "methods, parallel, Rserve (>= 1.7.3), Rcpp (>= 1.0.3), R6 (>=\n2.4.0), uuid (>= 0.1-2), checkmate (>= 1.9.4), mime (>= 0.7),\njsonlite (>= 1.6), digest (>= 0.6.29)",
-        "Suggests": "tinytest (>= 1.0.0), lgr (>= 0.3.2), lintr, knitr, rmarkdown,\ncurl, sys",
-        "LinkingTo": "Rcpp",
-        "ByteCompile": "true",
-        "KeepSource": "true",
-        "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.1",
-        "VignetteBuilder": "knitr",
-        "NeedsCompilation": "yes",
-        "Packaged": "2025-03-14 07:55:35 UTC; dselivanov",
-        "Author": "Dmitry Selivanov [aut, cre] (<https://orcid.org/0000-0001-5413-1506>),\n  Artem Klevtsov [aut] (<https://orcid.org/0000-0003-0492-6647>),\n  David Zimmermann [ctb],\n  rexy.ai [cph, fnd]",
-        "Maintainer": "Dmitry Selivanov <selivanov.dmitriy@gmail.com>",
-        "Repository": "CRAN",
-        "Date/Publication": "2025-03-14 10:30:01 UTC",
-        "Built": "R 4.5.2; x86_64-w64-mingw32; 2025-12-03 03:25:48 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "RestRserve",
-        "RemoteRef": "RestRserve",
-        "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha": "1.2.4"
-      }
-    },
-    "Rserve": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "Rserve",
-        "Version": "1.8-16",
-        "Title": "Versatile R Server",
-        "Author": "Simon Urbanek [aut, cre, cph] (https://urbanek.org, ORCID:\n    <https://orcid.org/0000-0003-2297-1732>)",
-        "Authors@R": "person(\"Simon\", \"Urbanek\", role=c(\"aut\",\"cre\",\"cph\"), email=\"Simon.Urbanek@r-project.org\", comment=c(\"https://urbanek.org\", ORCID=\"0000-0003-2297-1732\"))",
-        "Maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
-        "Depends": "R (>= 1.5.0)",
-        "Suggests": "RSclient",
-        "SystemRequirements": "libR, GNU make",
-        "Description": "Rserve is a versatile, scalable server enabling the\n\t     efficient use of R from other applications through\n\t     variety of protocols including QAP, WebSockets, HTTP\n\t     and HTTPS. It acts as a server (TCP/IP or local sockets) \n\t     which allows binary requests to be sent to R. Every\n\t     connection has a separate workspace and working\n\t     directory. Client-side implementations are available\n\t     for many popular languages allowing applications\n\t     to use facilities of R without the need of linking to\n\t     the R binary. Rserve supports remote connections,\n\t     user authentication and file transfer. A simple R client\n\t     is included in this package as well. It also supports\n\t     OCAP mode for secure remote procedure calls,\n\t     including support for full event loop, asynchronous\n\t     results/graphics and console I/O.",
-        "License": "GPL-2 | file LICENSE",
-        "URL": "https://www.rforge.net/Rserve/",
-        "BugReports": "https://github.com/s-u/Rserve/issues/",
-        "Biarch": "true",
-        "NeedsCompilation": "yes",
-        "Packaged": "2025-12-15 02:41:36 UTC; rforge",
-        "Repository": "CRAN",
-        "Date/Publication": "2025-12-15 09:33:01 UTC",
-        "Built": "R 4.5.2; x86_64-w64-mingw32; 2025-12-18 00:52:30 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "Rserve",
-        "RemoteRef": "Rserve",
-        "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha": "1.8-16"
-      }
-    },
-    "backports": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "backports",
-        "Type": "Package",
-        "Title": "Reimplementations of Functions Introduced Since R-3.0.0",
-        "Version": "1.5.0",
-        "Authors@R": "c(\n    person(\"Michel\", \"Lang\", NULL, \"michellang@gmail.com\",\n      role = c(\"cre\", \"aut\"), comment = c(ORCID = \"0000-0001-9754-0393\")),\n    person(\"Duncan\", \"Murdoch\", NULL, \"murdoch.duncan@gmail.com\",\n      role = c(\"aut\")),\n    person(\"R Core Team\", role = \"aut\"))",
-        "Maintainer": "Michel Lang <michellang@gmail.com>",
-        "Description": "\n    Functions introduced or changed since R v3.0.0 are re-implemented in this\n    package. The backports are conditionally exported in order to let R resolve\n    the function name to either the implemented backport, or the respective base\n    version, if available. Package developers can make use of new functions or\n    arguments by selectively importing specific backports to\n    support older installations.",
-        "URL": "https://github.com/r-lib/backports",
-        "BugReports": "https://github.com/r-lib/backports/issues",
-        "License": "GPL-2 | GPL-3",
-        "NeedsCompilation": "yes",
-        "ByteCompile": "yes",
-        "Depends": "R (>= 3.0.0)",
-        "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.1",
-        "Packaged": "2024-05-23 11:56:25 UTC; michel",
-        "Author": "Michel Lang [cre, aut] (<https://orcid.org/0000-0001-9754-0393>),\n  Duncan Murdoch [aut],\n  R Core Team [aut]",
-        "Repository": "CRAN",
-        "Date/Publication": "2024-05-23 12:30:02 UTC",
-        "Built": "R 4.5.0; x86_64-w64-mingw32; 2025-04-08 00:42:58 UTC; windows",
-        "Archs": "x64"
-      }
-    },
     "base64enc": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -251,43 +156,6 @@
         "RemoteRef": "cachem",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemoteSha": "1.1.0"
-      }
-    },
-    "checkmate": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "checkmate",
-        "Type": "Package",
-        "Title": "Fast and Versatile Argument Checks",
-        "Description": "Tests and assertions to perform frequent argument checks. A\n    substantial part of the package was written in C to minimize any worries\n    about execution time overhead.",
-        "Version": "2.3.3",
-        "Authors@R": "c(\n    person(\"Michel\", \"Lang\", NULL, \"michellang@gmail.com\",\n      role = c(\"cre\", \"aut\"), comment = c(ORCID = \"0000-0001-9754-0393\")),\n    person(\"Bernd\", \"Bischl\", NULL, \"bernd_bischl@gmx.net\", role = \"ctb\"),\n    person(\"Dénes\", \"Tóth\", NULL, \"toth.denes@kogentum.hu\", role = \"ctb\",\n      comment = c(ORCID = \"0000-0003-4262-3217\"))\n    )",
-        "URL": "https://mllg.github.io/checkmate/,\nhttps://github.com/mllg/checkmate",
-        "URLNote": "https://github.com/mllg/checkmate",
-        "BugReports": "https://github.com/mllg/checkmate/issues",
-        "NeedsCompilation": "yes",
-        "ByteCompile": "yes",
-        "Encoding": "UTF-8",
-        "Depends": "R (>= 3.0.0)",
-        "Imports": "backports (>= 1.1.0), utils",
-        "Suggests": "R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,\nknitr, magrittr, microbenchmark, rmarkdown, testthat (>=\n3.0.4), tinytest (>= 1.1.0), tibble",
-        "License": "BSD_3_clause + file LICENSE",
-        "VignetteBuilder": "knitr",
-        "RoxygenNote": "7.3.2",
-        "Collate": "'AssertCollection.R' 'allMissing.R' 'anyInfinite.R'\n'anyMissing.R' 'anyNaN.R' 'asInteger.R' 'assert.R' 'helper.R'\n'makeExpectation.R' 'makeTest.R' 'makeAssertion.R'\n'checkAccess.R' 'checkArray.R' 'checkAtomic.R'\n'checkAtomicVector.R' 'checkCharacter.R' 'checkChoice.R'\n'checkClass.R' 'checkComplex.R' 'checkCount.R'\n'checkDataFrame.R' 'checkDataTable.R' 'checkDate.R'\n'checkDirectoryExists.R' 'checkDisjunct.R' 'checkDouble.R'\n'checkEnvironment.R' 'checkFALSE.R' 'checkFactor.R'\n'checkFileExists.R' 'checkFlag.R' 'checkFormula.R'\n'checkFunction.R' 'checkInt.R' 'checkInteger.R'\n'checkIntegerish.R' 'checkList.R' 'checkLogical.R'\n'checkMatrix.R' 'checkMultiClass.R' 'checkNamed.R'\n'checkNames.R' 'checkNull.R' 'checkNumber.R' 'checkNumeric.R'\n'checkOS.R' 'checkPOSIXct.R' 'checkPathForOutput.R'\n'checkPermutation.R' 'checkR6.R' 'checkRaw.R' 'checkScalar.R'\n'checkScalarNA.R' 'checkSetEqual.R' 'checkString.R'\n'checkSubset.R' 'checkTRUE.R' 'checkTibble.R' 'checkVector.R'\n'coalesce.R' 'isIntegerish.R' 'matchArg.R' 'qassert.R'\n'qassertr.R' 'vname.R' 'wfwl.R' 'zzz.R'",
-        "Packaged": "2025-08-18 13:58:18 UTC; michel",
-        "Author": "Michel Lang [cre, aut] (ORCID: <https://orcid.org/0000-0001-9754-0393>),\n  Bernd Bischl [ctb],\n  Dénes Tóth [ctb] (ORCID: <https://orcid.org/0000-0003-4262-3217>)",
-        "Maintainer": "Michel Lang <michellang@gmail.com>",
-        "Repository": "CRAN",
-        "Date/Publication": "2025-08-18 16:30:02 UTC",
-        "Built": "R 4.5.2; x86_64-w64-mingw32; 2025-11-01 00:32:39 UTC; windows",
-        "Archs": "x64",
-        "RemoteType": "standard",
-        "RemotePkgRef": "checkmate",
-        "RemoteRef": "checkmate",
-        "RemoteRepos": "https://cran.rstudio.com",
-        "RemoteSha": "2.3.3"
       }
     },
     "cli": {
@@ -1147,29 +1015,6 @@
         "Built": "R 4.5.1; ; 2025-11-24 03:10:16 UTC; windows"
       }
     },
-    "uuid": {
-      "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
-      "description": {
-        "Package": "uuid",
-        "Version": "1.2-1",
-        "Title": "Tools for Generating and Handling of UUIDs",
-        "Author": "Simon Urbanek [aut, cre, cph] (https://urbanek.org,\n    <https://orcid.org/0000-0003-2297-1732>),\n  Theodore Ts'o [aut, cph] (libuuid)",
-        "Maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
-        "Authors@R": "c(person(\"Simon\", \"Urbanek\", role=c(\"aut\",\"cre\",\"cph\"), email=\"Simon.Urbanek@r-project.org\", comment=c(\"https://urbanek.org\", ORCID=\"0000-0003-2297-1732\")), person(\"Theodore\",\"Ts'o\", email=\"tytso@thunk.org\", role=c(\"aut\",\"cph\"), comment=\"libuuid\"))",
-        "Depends": "R (>= 2.9.0)",
-        "Description": "Tools for generating and handling of UUIDs (Universally Unique Identifiers).",
-        "License": "MIT + file LICENSE",
-        "URL": "https://www.rforge.net/uuid",
-        "BugReports": "https://github.com/s-u/uuid/issues",
-        "NeedsCompilation": "yes",
-        "Packaged": "2024-07-29 03:16:54 UTC; rforge",
-        "Repository": "CRAN",
-        "Date/Publication": "2024-07-29 07:09:22 UTC",
-        "Built": "R 4.5.0; x86_64-w64-mingw32; 2025-04-08 00:43:45 UTC; windows",
-        "Archs": "x64"
-      }
-    },
     "withr": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1304,14 +1149,11 @@
     "coba.txt": {
       "checksum": "0d69470270b22e65ccac3c3567d4dd2a"
     },
-    "contoh_api.R": {
-      "checksum": "aede1f93fce26862c583a45b3119bdcb"
-    },
     "daftar_akun.csv": {
       "checksum": "af128de5fcf03e99fbd0edcc1e769d8a"
     },
-    "data_sisa_waktu/sisa_waktu_abdur123.rds": {
-      "checksum": "5c8734ebd32b1793c2a7b1e1cd631866"
+    "dat.RData": {
+      "checksum": "12873cfdce957055975133ffba9d67a0"
     },
     "email.txt": {
       "checksum": "dcf643e5893fdfb69d1518b29a7525c5"
@@ -1323,7 +1165,7 @@
       "checksum": "c503230cd47ffbcc6b8f499257eb360d"
     },
     "fbantu_ujicoba.R": {
-      "checksum": "8a0693e4c875eb9a6047d63629c6f3e4"
+      "checksum": "edfa79a32d6c700a09d5639b4a030483"
     },
     "gambarku.png": {
       "checksum": "9be154f4ace2533c2106c905fa829671"
@@ -1342,9 +1184,6 @@
     },
     "kelas_kandidat_abdur123.rds": {
       "checksum": "21726f0b58c5c25578903a8b43200bb1"
-    },
-    "kumpulan_jawaban_peserta/Millenial_abdur123_ABDUR ROHMAN.rds": {
-      "checksum": "3724897a2788929566986cb2afb2c914"
     },
     "nama_kandidat_abdur123.rds": {
       "checksum": "d203c68a30d00367e4815c7b5d289870"
@@ -1383,7 +1222,7 @@
       "checksum": "dcecfc0ae6e94594e4766bfee1586ca7"
     },
     "ujicoba_ujian_statdas.R": {
-      "checksum": "7ef74ff4c0a9541cdef65912adc57f72"
+      "checksum": "fbf1f0199609457dcbd1c2f23638767d"
     },
     "username_kandidat_abdur123.rds": {
       "checksum": "d779a15723f2a212fd4daed26f2b3a39"
